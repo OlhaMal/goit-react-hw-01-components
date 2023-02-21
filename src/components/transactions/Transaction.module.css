@@ -1,0 +1,30 @@
+.transactionHistory {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.headerContainer {
+    background-color: #584c46;
+    color: #fff;
+}
+
+.tableHeader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.rowValues {
+    border: 1px solid #584c46;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+}

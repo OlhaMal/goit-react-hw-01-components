@@ -1,0 +1,41 @@
+.statisticsContsiner {
+    margin: 30px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.statistics {
+    display: flex;
+flex-direction: column;
+    min-width: 300px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 5);
+    color:#fff;
+}
+
+.label {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.percentage {
+    text-align: center;
+    padding-bottom: 5px;
+}
